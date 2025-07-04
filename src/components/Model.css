@@ -1,0 +1,116 @@
+.add-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.result-box {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e9f7ef;
+  color: #28a745;
+  border: 1px solid #c3e6cb;
+  border-radius: 5px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal-content h2 {
+  margin-top: 0;
+}
+
+.modal-content input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.submit-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  background-color: #dc3545;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.highlight-box {
+  background-color: #7dd5ed;
+  border: 1px solid #ffeb3b;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.action-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 8px 10px 0 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.blue-btn {
+  background-color: #007bff;
+}
+
+.green-btn {
+  background-color: #28a745;
+}
+
+.purple-btn {
+  background-color: #6c63ff;
+}
+
+.teal-btn {
+  background-color: #20c997;
+}
+
+.orange-btn {
+  background-color: #ff9800;
+}
